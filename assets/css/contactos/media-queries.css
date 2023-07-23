@@ -1,0 +1,79 @@
+@media screen and (max-width: 850px) {
+    .contact-wrapper {
+      display: flex;
+      flex-direction: column;
+      font-size: calc(1em + 1vw);
+    line-height: 1em;
+    padding: 1em;
+    margin: 1em;
+    height: 100vmin;
+    width: 100vmin;
+    
+    }
+    .direct-contact-container, .form-horizontal {
+      margin: 0 auto;
+    }  
+    
+    .direct-contact-container {
+      margin-top: 10em;
+      max-width: 60em;
+    }    
+    .social-media-list li {
+      width: 60px;
+      height: 60px;
+      line-height: 60px;
+    }
+    .social-media-list li:after {
+      width: 60px;
+      height: 60px;
+      line-height: 60px;
+    }
+  }
+  
+  @media all and (max-width:480px) {
+
+    .direct-contact-container, .form-wrapper {
+      float: none;
+      font-size: calc(1em + 1vw);
+      line-height: 1em;
+       padding: 1em;
+      margin: 1em;
+      height: 100vmin;
+      width: 100vmin;
+    
+    }
+   
+    .form-control, textarea {   
+      margin: 0 auto;
+  }
+    
+    .name, .email, textarea {
+      width: 40em;
+    } 
+    
+    .direct-contact-container {
+      margin-top:10em;
+      max-width:60em;
+    }  
+    .social-media-list {
+      left: 0;
+    }
+    .social-media-list li {
+      width: 60px;
+      height: 60px;
+      line-height: 60px;
+    }
+    .social-media-list li:after {
+      width: 60px;
+      height: 60px;
+      line-height: 60px;
+    }
+  } 
+
+  
+  @media all and (max-width: 410px) {
+    .send-button {
+      width: 100vmin;
+      
+    }
+  }

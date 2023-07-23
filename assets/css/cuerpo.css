@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+ 
+  font-family: "Poppins", sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+ 
+  height: 100vh;
+
+  }
+  .nav-container {
+   background-image: url(../img/armillar.jpg);
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+ 
+  }
+  
+section{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 100px;
+    color: #fff;
+  }
+  
+  .container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+  }
+  
+  
+  .content{
+    position: relative;
+    width: 1150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .content .text-box{
+    z-index: 222;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(6px);
+    padding: 40px;
+    max-width: 400px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    transform: translate(-80px, 50px);
+  }
+  
+  .content .text-box h3{
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  
+  .section-title{
+    font-size: 3em;
+    margin-bottom: 80px;
+  }
+  
+  
+  .info-title{
+    font-size: 1.8em;
+    margin-bottom: 10px;
+  }
+  
+  
+  .info{
+    width:400px;
+    margin-left: 50px;
+    float: left;
+    height: 400px;
+    
+   
+  }
+  
+  
+  

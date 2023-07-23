@@ -1,0 +1,82 @@
+.g-words{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/bodegon-lenceria-sujetador.jpg);
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  background-attachment: fixed;
+}
+@media only screen and (max-width: 480px) {
+  .g-words {
+    line-height: 1em;
+    padding: 1em;
+    margin: 1em;
+    height: 100vmin;
+    width: 100vmin;
+  }
+    
+  }
+.g-word1{
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/fahad.jpg);
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  background-attachment: fixed;
+
+}
+
+    
+  
+.g-word-1{
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/juli-kosolapova-bqirdOGHvYQ-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 650px;
+  background-attachment: fixed;
+}
+
+
+    
+  
+.g-word{
+  background-image: url(../img/pexels-toni-ferreira-1834391.jpg) ;
+  background-size: cover; 
+  background-position: center;
+  height: auto;
+  position: sticky;
+  background-attachment: fixed;
+}
+.g-img1 {
+   
+    background-attachment: fixed;
+    background-image: url(../img/munive-3404200.jpg);
+    background-size: cover; 
+    background-position: center;
+     height:700px; 
+}
+
+  
+.g-img2  {
+    height: auto;
+    background-attachment: fixed;
+       background-image: url(../img/pedro-vit-nxssxDuytMA-unsplash.jpg);
+       background-size: cover; 
+       background-position: center;
+    
+  }
+  
+    
+  .g-img3 {
+    height: auto;
+    background-attachment: fixed;
+      background-size: cover; 
+       background-position: center;
+       
+  }
+  

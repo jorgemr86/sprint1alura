@@ -1,0 +1,28 @@
+
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 12vh;
+    filter: drop-shadow(2px 4px 6px black);
+    background-color: rgba(152, 151, 151, 0.2); 
+    box-shadow: inset 0 0 0 200px rgb(255, 255, 255, 0.08);
+}
+  
+  
+  .navbar-logo {
+    justify-self: start;
+    margin-left: 20px;
+    color: #fff;
+    margin-top: 4vh;
+    cursor: pointer;
+  }
+  
+  .ver-carrito {
+    font-size: 25px;
+    margin-right: 20px;
+    margin-top: 3.5vh;
+    cursor: pointer;
+    color: beige;
+  }
+  

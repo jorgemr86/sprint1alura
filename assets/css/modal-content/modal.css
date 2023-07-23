@@ -1,0 +1,134 @@
+/*modal content*/
+.modal-container {
+  width: 50%;
+  margin: 0 ;
+  float: left;
+  max-height: auto;
+  color: #f5f5ff;
+  font-weight: bold;
+  background: rgba(24, 24, 24, 0.05);
+  box-shadow: 0 0 10px rgba(0,0,0,0.25);
+  backdrop-filter: blur(5px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*for the top*/
+ position: fixed;
+  overflow: auto;
+  z-index: 9;
+  top: 12vh;
+  scrollbar-color: none;
+  text-align: center;
+}
+
+.modal-container::-webkit-scrollbar {
+  display: none;
+}
+.modal-header {
+  display: flex;
+  justify-content: space-around;
+  background: rgb(87, 57, 57,0);
+  backdrop-filter: blur(8px);
+  color: #fff;
+  width: 100%;
+  border: #131313 solid 2px;
+}
+
+.modal-header-title {
+  justify-self: start;
+ 
+}
+
+.modal-header-button {
+  cursor: pointer;
+}
+
+.modal-container > .modal-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  margin: 10px;
+  border-bottom: #131313 solid 2px;
+  color: #f5f5ff;
+  font-weight: bold;
+}
+
+.modal-container > div > img {
+  height: 120px;
+  width: 120px;
+ padding: 15px 15px 15px;
+}
+
+.total-content {
+  font-size: 25px;
+  padding: 20px;
+  text-align: center;
+  padding-top: 20px;
+  border-bottom: #131313 solid 2px;
+  width: 90%;
+  color: #f5f5ff;
+  font-weight: bold;
+}
+
+/*se agregaron unas lineas de css con media querys para que se adapte mejor al responsive :)*/
+
+@media only screen and (max-width: 750px) {
+  .modal-container {
+    width: 100%;
+    margin: 0;
+    min-height: 88vh;
+  }
+
+  .modal-container > .modal-content {
+    justify-content: space-between;
+    width: 100%;
+    margin: 2px;
+  }
+
+  .modal-container > div > img {
+    height: 80px;
+    width: 80px;
+  }
+}
+@media only all and (max-width: 400px) {
+  .modal-container {
+    font-size: calc(1em + 1vw);
+    line-height: 1em;
+    padding: 1em;
+    margin: 1em;}
+    
+  }
+
+/*delete button product*/
+.delete-product {
+  cursor: pointer;
+}
+
+/*CarritoCounter*/
+.cantidad-carrito {
+  background-color: red;
+  color: #f5f5ff;
+  font-weight: bold;
+  border-radius: 50%;
+  font-size: 12px;
+  padding: 4px;
+  top: 37px;
+  right: 14px;
+  position: absolute;
+  display: none;
+}
+
+.sumar {
+  cursor: pointer;
+  color: #f5f5ff;
+  font-weight: bold;
+  
+}
+
+.restar {
+  cursor: pointer;
+  color: #f5f5ff;
+  font-weight: bold;
+}

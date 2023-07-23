@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+     <!--css-->
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+      
+     <!--header-->
+     <link rel="stylesheet" href="assets/css/nav/nav.css">
+     <link rel="stylesheet" href="assets/css/nav/logo.css">
+     
+     <!--secciones-->
+     <link rel="stylesheet" href="assets/css/cuerpo.css">
+    <link rel="stylesheet" href="assets/css/word.css">
+     <!--secciones animadas-->
+    <link rel="stylesheet" href="assets/css/secciones/beneficios.css">
+    <link rel="stylesheet" href="assets/css/secciones/glass-panel.css">
+    <link rel="stylesheet" href="assets/css/secciones/notification.css">
+  
+    <!--modal-container-->
+     <link rel="stylesheet" href="assets/css/modal-content/modal.css">
+    <link rel="stylesheet" href="assets/css/modal-content/shop-content.css">
+        <!--seccion contacto-->
+    <link rel="stylesheet" href="assets/css/contactos/formulario.css">
+    <link rel="stylesheet" href="assets/css/contactos/contacto-lista.css">
+    <link rel="stylesheet" href="assets/css/contactos/social-media.css">
+    <link rel="stylesheet" href="assets/css/contactos/media-queries.css">
+   
+    <script src="js/scroll-reveal/scrollreveal.js"></script>
+    <script src="js/scroll-reveal/scrollreveal.min.js"></script>
+    <script src="js/kit.fontawesome.js"></script>
+    <title>MVD</title>
+  </head>
+  <body>
+    <!--navBar-->
+    <div class="nav-container">
+      <nav class="navbar">
+        <h1 class="navbar-logo">Compras</h1>
+        <h1 class="ver-carrito" id="verCarrito"><i class="fa fa-shopping-cart"></i> <span id="cantidadCarrito" class="cantidad-carrito"></span></h1>
+   
+      </nav>
+     </div>
+
+     <section class="g-words ">
+           <div class="outer">
+          <div class="inner"> 
+             <img src="assets/img/m (2) (2).png" class="logo" alt="my logo">
+             
+            </div>
+          </div>
+  </section>
+  <section class="g-img1">
+    <div class="glass-panel">
+     
+      <p>Las pieles delicadas, merecen la mejor calidad. Prueba nuestra colección intima de tejidos naturales.</p>
+      <div class="glass-toolbar">
+        
+      </div>
+    </div>
+ 
+  </section>
+  <section class="g-word">
+    <div class="container">
+    <div class="notification">MVD</div>
+   <h3 class="section-title">Maria Victoria Diseños</h3>
+    <div class="content">
+      <div class="info">
+    <h4 class="info-title">Nosotros</h4>
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+     aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut  aliquip ex ea commodo consequat. Duis
+     aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat  nulla pariatur.</p>
+   </div>
+    </div>
+    </div>
+</section>
+<section class="g-img2">
+    <div id="shopContent" class="shop-content"></div>
+
+    <!--modal container-->
+    <div id="modal-container" class="modal-container"></div>
+
+    <script src="./js/products.js"></script>
+    <script src="./js/app.js"></script>
+    <script src="./js/carrito.js"></script>
+</section>
+<section class="g-word1">
+  <div class="beneficios">
+  <div class="contenedor ben">
+ <div class="ben-item">
+  <div class="icono">
+   <i class="fas fa-redo"></i>
+ </div>
+<div class="texto">
+  <h2>DEVOLUCIONES</h2>
+  <p>Cambios y devoluciones fáciles</p>
+</div>
+</div>
+<div class="ben-item">
+<div class="icono">
+   <i class="fas fa-shipping-fast"></i>
+</div>
+<div class="texto">
+  <h2>ENVÍOS GRATIS</h2>
+  <p>Para compras de más de 100.000 $</p>
+</div>
+</div>
+<div class="ben-item">
+ <div class="icono">
+ <i class="fas fa-credit-card"></i>
+</div>
+ <div class="texto">
+   <h2>OPCIONES DE PAGO</h2>
+   <p>Tarjetas de crédito: Visa, Master Card
+     Depósitos: Scotiabank</p>
+</div>
+</div>
+<div class="ben-item">
+<div class="icono">
+<i class="fas fa-shield-alt"></i>
+</div>
+<div class="texto">
+   <h2>SITIO SEGURO</h2>
+  <p>Protegemos tus datos, comprá tranquila desde la comodidad de tu casa.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="g-word-1" id="contacto">
+
+   <div class="contact-wrapper">
+    
+    <!-- Izq contacto pagina --> 
+    
+      
+      <form id="contacto-form" class="form-horizontal" role="form">
+         
+        <div class="form-group">
+          <div class="col-sm-12">
+            <input type="text" class="form-control" id="name" placeholder="Nombre" name="Nombre" value="" required>
+          </div>
+        </div>
+  
+        <div class="form-group">
+          <div class="col-sm-12">
+            <input type="email" class="form-control" id="email" placeholder="email" name="email" value="" required>
+          </div>
+        </div>
+  
+        <textarea class="form-control" rows="10" placeholder="Mensaje" name="Mensaje" required></textarea>
+        
+        <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+          <div class="alt-send-button">
+            <i class="fa fa-paper-plane"></i><span class="send-text">Enviar</span>
+          </div>
+        
+        </button>
+        
+      </form>
+      
+    <!-- derecha contacto pagina --> 
+      
+        <div class="direct-contact-container">
+  
+          <ul class="contact-list">
+            <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">Bogota Colombia</span></i></li>
+            
+            <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="#" title="Give me a call">(601) 345-2369</a></span></i></li>
+            
+            <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="https://espanol.yahoo.com/?p=us" title="Send me an email">jorgevallejo9@yahoo.es</a></span></i></li>
+            
+          </ul>
+  
+          <hr>
+          <ul class="social-media-list">
+            <li><a href="#" target="_blank" class="contact-icon">
+                <i class="fab fa-github-square" aria-hidden="true"></i></a>
+            </li>
+            <li><a href="#" target="_blank" class="contact-icon">
+              <i class= "fab fa-twitter twitter" aria-hidden="true"></i></a>
+            </li>
+            <li><a href="#" target="_blank" class="contact-icon">
+             <i class="fab fa-facebook-f facebook" aria-hidden="true"> </i></a>
+            </li>
+            <li><a href="#" target="_blank" class="contact-icon">
+                <i class="fab fa-youtube youtube" aria-hidden="true"></i></a>
+            </li>       
+          </ul>
+          <hr>
+  
+          <div class="copyright">&copy; ALL OF THE RIGHTS RESERVED</div>
+  
+        </div>
+      
+    </div>
+    
+  </section>  
+    
+
+
+<script>
+  ScrollReveal({
+  reset: true,
+  distance:'60px',
+  duration: 2500,
+  delay:400
+  
+  });
+  
+  ScrollReveal().reveal('.contenedor', { delay: 500, origin: 'left' });
+  ScrollReveal().reveal('.logo ', { delay: 500, origin: 'left' });
+  ScrollReveal().reveal('.sec-01 .image, .info', { delay: 600, origin: 'bottom' });
+  ScrollReveal().reveal('.text-box','.section-title',  { delay: 700, origin: 'right' });
+  ScrollReveal().reveal('.glass-panel', { delay: 500, origin: 'bottom', interval: 200 });
+  ScrollReveal().reveal('.sec-02 .image,', { delay: 500, origin: 'top' });
+  ScrollReveal().reveal('.notification',  { delay: 500, origin: 'left', interval: 200 });
+  
+  
+  </script>
+
+  </body>
+</html>

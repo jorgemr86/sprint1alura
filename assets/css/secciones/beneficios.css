@@ -1,0 +1,121 @@
+.beneficios{
+    width:100%;
+    padding:25px 0px;
+    background: rgba(255,255,255,.05);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    backdrop-filter: blur(2px);
+    
+  }
+  
+  .beneficios .ben{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    text-align: center;
+    align-items: center;
+    
+  }
+  
+  .beneficios .ben .ben-item{
+    width:25%;
+    display:flex;
+    align-items: center;
+    box-sizing:border-box;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 
+        0 6px 1px   rgba(0,0,0, 0.10),
+        0 0px 5px   rgba(0,0,0, 0.10),
+        0 1px 3px   rgba(0,0,0, 0.30),
+        0 3px 5px   rgba(0,0,0, 0.20),
+        0 5px 10px  rgba(0,0,0, 0.25),
+        0 10px 10px rgba(0,0,0, 0.20),
+        0 20px 20px rgba(0,0,0, 0.15);
+    
+
+  }
+  
+  .beneficios .ben .ben-item .icono{
+    position: relative; 
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin: 10px 3px;
+    line-height: 60px;
+    border-radius: 50%;
+    color: #fff;
+    background: rgba(241, 38, 38, 0.603);
+    box-shadow: rgba(247, 30, 30, 0.863) 0px 1px 4px;
+    backdrop-filter: blur(2px);
+   transition: all .2s ease-in-out;
+  
+  }
+  
+ 
+
+  .beneficios .ben .ben-item .icono i{
+    font-size:20px;
+    text-align: center;
+   
+  }
+  .beneficios .ben .ben-item .texto{
+    width:70%;
+  }
+  .beneficios .ben .ben-item .texto h2{
+    font-size:1rem;
+    color:#fff;
+    font-weight: bold;
+    margin-top: 5%;
+   
+  }
+  .beneficios .ben .ben-item .texto p{
+    font-size:0.8rem;
+    color:#fff;
+    font-weight: bold;
+    margin-top: 2%;
+    text-transform: uppercase;
+    text-shadow: 
+        0 6px 1px   rgba(0,0,0, 0.10),
+        0 0px 5px   rgba(0,0,0, 0.10),
+        0 1px 3px   rgba(0,0,0, 0.30),
+        0 3px 5px   rgba(0,0,0, 0.20),
+        0 5px 10px  rgba(0,0,0, 0.25),
+        0 10px 10px rgba(0,0,0, 0.20),
+        0 20px 20px rgba(0,0,0, 0.15);
+   
+  }
+
+
+  @media all and (max-width: 410px) {
+    .beneficios {
+      
+      width: 100%;
+    } 
+    .beneficios .ben .ben-item{
+      width: 4em;
+    }
+      
+      .beneficios .ben .ben-item{
+         line-height: 0.4em;
+         padding:0.3em;
+         margin: 0.5em;
+      }
+      .beneficios .ben .ben-item .texto{
+        width:0.3em;
+        
+      }
+      .beneficios .ben .ben-item .icono i{
+        font-size:1em;
+        text-align: center;
+      }
+      .beneficios .ben .ben-item .texto h2{
+        font-size:0.4em;
+        
+      }
+      .beneficios .ben .ben-item .texto p{
+        font-size:0.3em;
+      }
+    }
+  
+   
+      
