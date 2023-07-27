@@ -30,7 +30,7 @@
     }
   }
   
-  @media all and (max-width:480px) {
+  @media (min-width: 425px) {
 
     .direct-contact-container, .form-wrapper {
       float: none;
