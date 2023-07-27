@@ -92,7 +92,7 @@
     width: 80px;
   }
 }
-@media only all and (max-width: 400px) {
+@media (min-width: 425px) {
   .modal-container {
     font-size: calc(1em + 1vw);
     line-height: 1em;
