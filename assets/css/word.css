@@ -39,6 +39,9 @@
   background-position: center;
   height: auto;
   background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 100px;
 }
 
 

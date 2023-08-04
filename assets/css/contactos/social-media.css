@@ -1,3 +1,4 @@
+/* Social Media Icons */
 .social-media-list {
     position: relative;
     font-size: 22px;
@@ -5,20 +6,10 @@
     width: 100%;
     margin: 0 auto;
     padding: 0;
-    margin-top: 30%;
   }
   
   .social-media-list li a {
     color: #fff;
-    text-transform: uppercase;
-    text-shadow: 
-        0 6px 1px   rgba(0,0,0, 0.10),
-        0 0px 5px   rgba(0,0,0, 0.10),
-        0 1px 3px   rgba(0,0,0, 0.30),
-        0 3px 5px   rgba(0,0,0, 0.20),
-        0 5px 10px  rgba(0,0,0, 0.25),
-        0 10px 10px rgba(0,0,0, 0.20),
-        0 20px 20px rgba(0,0,0, 0.15);
   }
   
   .social-media-list li {
@@ -30,8 +21,7 @@
     line-height: 60px;
     border-radius: 50%;
     color: #fff;
-    background: rgba(245, 2, 2, 1);
-    backdrop-filter: blur(2px);
+    background-color: rgb(27,27,27);
     cursor: pointer; 
     transition: all .2s ease-in-out;
   }
@@ -49,15 +39,9 @@
     box-shadow: 0 0 0 1px #fff;
     transition: all .2s ease-in-out;
   }
-   
-  hr {
-    border-color: rgba(255,255,255,.6);
-  }
   
   .social-media-list li:hover {
-    background: rgba(255,255,255,.05);
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-    backdrop-filter: blur(2px);
+    background-color: #fff; 
   }
   
   .social-media-list li:hover:after {
@@ -72,10 +56,11 @@
   
   .copyright {
     font: 200 14px 'Oswald', sans-serif;
-    color:  #131313;
-    background: rgba(255,255,255,.05);
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-    backdrop-filter: blur(2px);
+    color: #555;
     letter-spacing: 1px;
     text-align: center;
+  }
+  
+  hr {
+    border-color: rgba(255,255,255,.6);
   }

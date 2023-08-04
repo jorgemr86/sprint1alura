@@ -13,7 +13,7 @@
   flex-direction: column;
   align-items: center;
   /*for the top*/
-    position: fixed;
+  position: fixed;
   overflow: auto;
   z-index: 9;
   top: 12vh;
