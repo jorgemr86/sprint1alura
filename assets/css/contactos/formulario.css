@@ -27,7 +27,7 @@
 .form-control, 
 textarea {
   max-width: 400px;
-  backdrop-filter:blur(5px) ;
+  backdrop-filter:blur(2px) ;
   border: 2px solid #191919;   
   color: #fff;
   letter-spacing: 1px;
@@ -38,35 +38,30 @@ textarea {
 
 .send-button {
   margin-top: 15px;
-  height: 34px;
-  width: 300px;
-  border: 2px solid #191919;   
-  overflow: hidden;
- 
+  height: 40px;
+  width: 80px;
+  cursor: pointer;
+  padding: 0 10px;
 }
 
 .alt-send-button {
-  width: 400px;
-  height: 34px;
-  
+  height: 50px;
+  width: 300px;
+  margin-right: 50px;
+  border: #131313 solid 1px;
+ 
 }
 
 .send-text {
   display: block;
   margin-top: 10px;
-  font: 700 12px 'Lato', sans-serif;
+  font: 700 12px "Roboto", sans-serifs;
   letter-spacing: 2px;
+  text-align: center;
 }
 
-.alt-send-button:hover {
-  transform: translate3d(0px, -29px, 0px);
-}
 
-/* Begin Right Contact Page */
-.direct-contact-container {
-  max-width: 400px;
 
-}
 
 
 

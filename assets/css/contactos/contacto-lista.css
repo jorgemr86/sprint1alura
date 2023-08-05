@@ -1,4 +1,10 @@
- /* Location, Phone, Email Section */
+ /* Comenzar página de contacto derecha */
+.direct-contact-container {
+  max-width: 400px;
+ 
+}
+
+ /* columna, Phone, Email Section */
 .contact-list {
     list-style-type: none;
     margin-left: -30px;
@@ -7,13 +13,13 @@
   
   .list-item {
     line-height: 4;
-    color: #aaa;
+    color:  #191919;
   }
   
   .contact-text {
     font: 300 18px 'Lato', sans-serif;
     letter-spacing: 1.9px;
-    color: #bbb;
+    color: #191919;
   }
   
   .place {
@@ -29,7 +35,7 @@
   }
   
   .contact-text a {
-    color: #bbb;
+    color: #191919;
     text-decoration: none;
     transition-duration: 0.2s;
   }
